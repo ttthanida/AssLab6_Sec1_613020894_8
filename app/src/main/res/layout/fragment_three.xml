@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ThreeFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/panda3"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/panda3Img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PANDA3"
+        android:textSize="40sp"
+        android:layout_below="@+id/panda3Img"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/panda3Name"
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/panda3Name"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pandathreebt"
+        android:text="Go back my fragment"/>
+
+
+</RelativeLayout>
